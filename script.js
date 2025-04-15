@@ -1,6 +1,6 @@
 // Var Definitions
 
-pnckey = "q" //Key used for quickly replacing the tab with a school-safe oneq
+pnckey = "`" //Key used for quickly replacing the tab with a school-safe oneq
 
 //Opens a about:blank tab with either a <iframe> or a <embed>
 function aboutBlank(url, type) {
