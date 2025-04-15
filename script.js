@@ -87,6 +87,6 @@ document.onkeydown=(e)=>{
 	switch(e.key) {
 		case pnckey:e.preventDefault();
 		e.stopPropagation();
-		replace('https://ixl.com');
+		replace('https://login.icevonline.com/auth/login?ReturnUrl=%2Fauth%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dicev%26redirect_uri%3Dhttps%253A%252F%252Flogin.icevonline.com%252Fsignin-oidc%26response_type%3Dcode%26scope%3Dopenid%2520profile%2520iCEV%26code_challenge%3DaRBgdyZ6MK2g02FvLva3TprM_L-VWtZ4MBrWryD5TWc%26code_challenge_method%3DS256%26response_mode%3Dform_post%26nonce%3D638803270979083379.NTI4ZWZkZDktNWRiOS00MTgwLTliNDQtYWRlYmZjOWJhOTA5OGZkMWEyZWMtMzA3OS00M2M1LTk2YzMtODM5YTBkZjk2OTM4%26state%3DCfDJ8DaMTo2ZdYRAiBSHDLYgi05qmPUvECyM9MxjuAQOkkdXEN3jd-oTbQZpDvadDE9PM_ljPATTcR7UOa1epjvOu0rQgGEfac_KU-vxe8Nvf1p4SE9nAWZ_t7GyZfLzTUte_j4cUf_eE6UzbFwh9-taZzN0-1-T8--W991TKgykpQcQ4KkW8QmBj6WCRVUMEOEX4-HpmzgNuME-yvNkN4gvTFnqve-FKjB5sHwkpYjV3RsqpAIIvg72ok8EehPySp12Zlz32Ehew1l4MyCfR8ymD2NM729Qu9-AydeSza5q4Xrz1IYju1w6hhwUH8r2SRhzRTCjVJ-tdmQjiIDE-qxvjZqJXfIrDv0yTWQUvPcbRKlwC1fC3YCKs7hYvWitwiV5hg%26x-client-SKU%3DID_NET8_0%26x-client-ver%3D7.1.2.0');
 	}
 }
